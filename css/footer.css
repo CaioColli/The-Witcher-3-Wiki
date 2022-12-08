@@ -1,0 +1,19 @@
+.rodape {
+    height: 120px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 5px solid #BE8F36;
+}
+
+.wicther__logo {
+    margin: 0;
+}
+
+.logo_witcher__footer {
+    text-align: center;
+}
+
+.footer__copyright {
+    text-align: center;
+}

@@ -1,0 +1,250 @@
+.box__sobre {
+    display: none;
+}
+
+.secao__apresentacao {
+    text-align: center;
+    background-color: #111111;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.burguer {
+    position: absolute;
+    left: 1rem;
+    width: 50px;
+    height: 50px;
+}
+
+.titulo__principal {
+    font-weight: 700;
+}
+
+.conteudo__texto {
+    margin-top: 2rem;
+}
+
+.titulo__secundario {
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone {
+    padding: 0.5rem;
+}
+
+.secao__wiki {
+    text-align: center;
+}
+
+.margen__carrossel {
+    padding: 0 2rem;
+}
+
+.img__carrossel {
+    margin-bottom: 3rem;
+}
+
+/*Overlay Lateral*/
+
+/* The side navigation menu */
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 500px;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: absolute;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 120px;
+    /* Stay at the top */
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.img__sidenav {
+    margin-bottom: 1rem;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    color: white;
+    top: 25rem;
+    right: 11rem;
+    font-size: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .secao__wiki {
+        display: none;
+    }   
+
+    .apresentacao {
+        display: none;
+    }
+
+    .conteudo__texto {
+        display: none;
+    }
+
+    .icones__link {
+        display: none;
+    }
+
+    .icones__lojas {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .bg-company-brown {
+        background-color: #111111!important;
+    }
+
+    .cor__fundo {
+        background-color: #111111;
+        color: #111111;
+    }
+
+    .offcanvas-title {
+        margin: 0 auto;
+        color: white;
+    }
+
+    .img__lobo {
+        margin-bottom: 3rem;
+    }
+
+    .centralizar__nav {
+        text-align: center;
+    }
+
+    .offcanvas-title {
+        font-family: "die";
+    }
+
+    .nav-item {
+        font-family: "die";
+        font-size: 1.5rem;
+    }
+
+    .links {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .centralizar__copyright {
+        text-align: center;
+    }
+
+    .copyright {
+        color: white;
+    }
+
+    .secao__apresentacao {
+        background-color: transparent;
+        margin: 3rem 0;
+    }
+    
+    .conteudos__apresentacao {
+        align-items: center;
+        margin-top: 2rem;
+        margin: 0 2rem;
+    }
+
+    .box__sobre {
+        display: block;
+        border-radius: 15px;
+        width: 100%;
+        height: 18rem;
+        background-color: #111111;
+        padding: 1rem 1rem;
+    }
+
+    .img__lobo {
+        margin-bottom: 3rem;
+    }
+
+    .conteudo__texto--desk {
+        margin: 0;
+    } 
+
+    .secao__wiki {
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    .img__carrossel {
+        object-fit: cover;
+        object-position: 0 1px;
+        height: 700px;
+    }
+
+    .titulo__corrossel {
+        font-size: 2rem;
+        font-family: "die";
+    }
+
+    .ul__lojas {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .modal-content {
+        background-color: black;
+    }
+}
+

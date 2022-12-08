@@ -1,0 +1,16 @@
+.navbar {
+    display: none;
+}
+
+.cabecalho {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid #BE8F36;
+    height: 120px;
+}
+
+.wicther__logo {
+    text-align: center;
+    padding-top: 1rem;
+}
