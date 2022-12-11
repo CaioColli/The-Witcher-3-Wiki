@@ -1,6 +1,9 @@
 @import url("header.css");
-@import url("main.css");
 @import url("footer.css");
+
+:root {
+    --marrom-principal: #BE8F36;
+}
 
 @font-face {
     font-family: "die";
@@ -12,5 +15,6 @@ body {
     font-family: 'Baloo Tamma 2', cursive;
     font-weight: 400;
     color: white;
+    scroll-behavior: smooth;
 }
 

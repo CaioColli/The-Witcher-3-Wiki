@@ -1,0 +1,150 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>The Witcher Wiki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main witcher 3 home.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <figure class="wicther__logo">
+            <a href=""><img src="images/witcher3wikilogo.png" alt="" class="logo_witcher__header"></a>
+        </figure>
+    </header>
+
+    <main>
+        <article class="secao__apresentacao">
+            <div class="apresentacao mt-2">
+                <span onclick="openNav()"><button class="menu__burguer burguer"><svg xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg></button></span>
+                <h1 class="titulo__principal">The Witcher 3: Wild Hunt</h1>
+            </div>
+            <!--Sidenav-->
+            <div id="mySidenav" class="sidenav">
+                <a href="index.html"><img src="images/icon/inicio.svg" alt="" class="img__sidenav">
+                    <p class="descricao__icone">Início</p>
+                </a>
+                <a href="#"><img src="images/icon/icone home.svg" alt="" class="img__sidenav">
+                    <p class="descricao__icone ativo">Home</p>
+                </a>
+                <a href="#"><img src="images/icon/icone alquimia.svg" alt="" class="img__sidenav">
+                    <p class="descricao__icone">Alquimia</p>
+                </a>
+                <a href="#"><img src="images/icon/icone armadura.svg" alt="" class="img__sidenav">
+                    <p class="descricao__icone">Equipamentos</p>
+                </a>
+                <a href="#"><img src="images/icon/icone geral.svg" alt="" class="img__sidenav">
+                    <p class="descricao__icone">Em Geral</p>
+                </a>
+                <a href="#"><img src="images/icon/icone guia.svg" alt="" class="img__sidenav">
+                    <p class="descricao__icone">Guia</p>
+                </a>
+                <a href="#"><img src="images/icon/icone mundo.svg" alt="" class="img__sidenav">
+                    <p class="descricao__icone">Mundo</p>
+                </a>
+                <a href="#"><img src="images/icon/icone personagem.svg" alt="" class="img__sidenav">
+                    <p class="descricao__icone">Personagem</p>
+                </a>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            </div>
+            <!--Sidenav-->
+
+            <section>
+                <article class="conteudo__texto">The Witcher 3: Wild Hunt é um jogo de RPG de ação mundo aberto desenvolvido
+                    pela
+                    CD Projeck Red e lançado no dia 19 de maio de 2015 para as plataformas PC, Xbox One, PlayStation 4 e
+                    em
+                    outubro de 2019 para Nintendo Switch.
+                    The Witcher 3: Wild Hunt é <span id="pontos">...</span><span id="mais"> ambientado em um
+                        gigantesco cenário medieval que dá liberdade total ao jogador, o game, que possui
+                        uma jogabilidade não linear e é jogado através de uma perspectiva em terceira pessoa, tem o
+                        lendário
+                        bruxo Geralt de Rívia como seu protagonista, o qual inicia uma longa jornada pelos Reinos do
+                        Norte.
+                        Enquanto a ordem planetária enfrenta uma grande mudança, com o misterioso e macabro exército de
+                        cavaleiros vermelhos conhecido como a "Caçada Selvagem" deixando somente sangue e ruína por onde
+                        passa, o jogador terá de enfrentar diversos perigos, usando espadas e magia num mundo em crise,
+                        à
+                        medida que interage com outros personagens e completa missões para o progresso da história,
+                        podendo
+                        viajar a pé, a barco, ou montado em Carpeado, o cavalo inseparável de Geralt.
+                        The Witcher 3: Wild Hunt foi amplamente aclamado pela crítica, com alguns considerando-o como um
+                        dos
+                        melhores jogos de todos os tempos. Sua consagração veio na noite de 3 de dezembro de 2015,
+                        quando
+                        foi galardoado com o grande prêmio de jogo do ano na cerimônia de condecoração The Game Awards,
+                        considerada a mais importante e prestigiada do ramo dos videogames. The Witcher 3: Wild Hunt é
+                        um
+                        dos jogos mais premiados da história, com 257 prêmios de múltiplas publicações e eventos
+                        recebidos
+                        apenas na categoria de melhor jogo.</span></article>
+                <button onclick="leiaMais()" id="lerMais" class="botaoLerMais">Ler mais</button>
+
+
+
+                <h2 class="titulo__secundario">Enredo</h2>
+                <h3 class="titulo__apoio">Premissa</h3>
+                
+                    <article class="conteudo__texto__enredo">The Witcher 3: Wild Hunt conclui a história do lendário bruxo Geralt de Rívia, o
+                    protagonista da série, que vem sendo contada nos jogos antecessores e nos livros da série. Bruxos
+                    são humanos geneticamente<span id="pontosEnredo">...</span><span     id="maisEnredo">
+                        modificados ensinados a lutar contra monstros desde jovens, possuindo diversas habilidades
+                        especiais, as quais divergem de bruxo para bruxo. Com grande conhecimento alquímico, estes
+                        caçadores de recompensas usam a magia em grande parte de seu cotidiano, sobrevivendo ao matar
+                        criaturas monstruosas e outras ameaças em troca de dinheiro. No entanto, apesar de serem cultos
+                        pela educação que receberam na juventude, sofrem grande preconceito da sociedade por
+                        submeterem-se a vários experimentos durante seu treinamento, sendo muitas vezes considerados
+                        como aberrações pelas pessoas.
+                        <h3 class="titulo__apoio">Narrativa</h3>
+                        A história do jogo é complexa e profunda, com as escolhas do jogador ramificando as aventuras em
+                        vários níveis, os quais incluem a trama principal, as inúmeras aventuras paralelas, que são
+                        liberadas a todo momento, e as questões cotidianas triviais. Salvar o filho do moleiro de um
+                        ataque de um Wyvern, por exemplo, pode afetar quem acabará por vestir uma coroa, enquanto
+                        frustrar uma conspiração para assassinar um senhor nobre pode significar a ruína de seus súditos
+                        oprimidos. As missões, que são todas apresentadas de forma cinematográfica, podem ser tomadas em
+                        qualquer ordem, seja completando uma de cada vez ou prosseguindo simultaneamente com as outras.
+                        Independentemente do método, as ações do jogador trarão muitas consequências, as quais podem
+                        mudar a história e afetar o mundo do jogo. Essas consequências culminam em três epílogos
+                        jogáveis completamente diferentes definidos em um dos doze estados possíveis do mundo. Definido
+                        pelo resultado de eventos climáticos e o destino dos principais personagens, esses estados
+                        fornecem um total de 36 finais diferentes.</span></article>
+                <button onclick="MaisEnredo()" id="btnEnredo" class="botaoLerMaisEnredo">Ler Mais</button>
+        </section>
+    </main>
+
+
+
+
+
+    <!-- <footer class="rodape">
+        <figure class="wicther__logo">
+            <a href=""><img src="images/Witcher Footer Logo.png" alt="" class="logo_witcher__footer"></a>
+        </figure>
+        <article class="footer__copyright">
+            <p class="copyright">©copyright - CaioColli - caiocolli22@gmail.com</p>
+        </article>
+    </footer> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+    </script>
+    <script src="javascript/index.js"></script>
+</body>
