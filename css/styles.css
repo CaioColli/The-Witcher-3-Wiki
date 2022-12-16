@@ -1,5 +1,7 @@
 @import url("header.css");
 @import url("footer.css");
+@import url("navbar.css");
+@import url("sidenav.css");
 
 :root {
     --marrom-principal: #BE8F36;

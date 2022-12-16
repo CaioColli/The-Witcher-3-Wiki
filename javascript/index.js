@@ -45,6 +45,4 @@ function MaisEnredo() {
   }
 }
 
-
-
 // Mostrar mais
